@@ -54,19 +54,7 @@ window.addEventListener("scroll", (e) => {
 });
 
 function functionClick() {
-  navbarContact.addEventListener("click", async () => {
-    const req = await fetch("https://ghilangramadhan.vercel.app/");
-    try {
-        if (!req.ok) {
-            throw new Error("Error:failed");
-        } else {
-            const result = req.json()
-            console.log(result);
-        }
-    } catch (error) {
-        console.error("please try again!");
-    }
-
+  navbarContact.addEventListener("click", () => {
     setTimeout(() => {
       contentFooter.scrollIntoView({
         behavior: "smooth",
