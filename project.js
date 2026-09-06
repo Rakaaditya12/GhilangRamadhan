@@ -54,11 +54,13 @@ window.addEventListener("scroll", (e) => {
 });
 
 function functionClick() {
-  setTimeout(() => {
-    contentFooter.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
+  navbarContact.addEventListener("click", () => {
+    setTimeout(() => {
+      contentFooter.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
     });
   });
 }
