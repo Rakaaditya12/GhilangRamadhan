@@ -63,16 +63,16 @@ function functionClick() {
       get
         .then((res) => {
           console.log(res);
-          return get();
+          return req();
         })
         .then((data) => {
           if (data) {
             console.log("respon:", data);
-            return get();
+            return req();
           }
         })
         .catch((err) => {
-          console.log("Please try again...", err);
+          console.Error("Please try again...", err);
         });
     }
 
