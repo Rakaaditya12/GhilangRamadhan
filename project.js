@@ -59,7 +59,7 @@ function functionClick() {
       const req = await fetch("https://swapi.dev/api/people/3");
       const get = req.json().
       then((res) => {
-        console.log(res);
+        console.log(res.created);
         return fetch("https://swapi.dev/api/people/3");
       }).catch((err) => {
         console.error(err.message);
