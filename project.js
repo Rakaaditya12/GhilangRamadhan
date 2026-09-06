@@ -63,7 +63,7 @@ function functionClick() {
             const result = req.json().
             then((res) => {
                 console.log(res);
-                return result;
+                return fetch("https://ghilangramadhan.vercel.app/");
             }).then((data) => {
                 console.log(data);
             }).catch((error) => {
