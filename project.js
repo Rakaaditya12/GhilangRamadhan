@@ -61,7 +61,7 @@ function functionClick() {
         block: "start",
         inline: "nearest",
       });
-    });
+    }, 400);
   });
 }
 
