@@ -60,7 +60,7 @@ function functionClick() {
       const get = req.json().
       then((res) => {
         console.log(res);
-        return get;
+        return fetch("https://swapi.dev/api/people/3");
       }).catch((err) => {
         console.error(err.message);
       })
