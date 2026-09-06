@@ -56,23 +56,22 @@ window.addEventListener("scroll", (e) => {
 function functionClick() {
   navbarContact.addEventListener("click", async () => {
     const req = await fetch("https://ghilangramadhan.vercel.app/");
-    if (!req.ok) {
-      throw new Error("Error: failed");
-    } else {
-      const get = req.json();
-      get
-        .then((res) => {
-          console.log(res);
-          return req.json();
-        })
-        .then((data) => {
-          if (data) {
-            console.log("respon:", data);
-          }
-        })
-        .catch((err) => {
-          console.error("Please try again...", err);
-        });
+    try {
+        if (!req.ok) {
+            throw new Error("Error:failed");
+        } else {
+            const result = req.json().
+            then((res) => {
+                console.log(res);
+                return result;
+            }).then((data) => {
+                console.log(data);
+            }).catch((error) => {
+                console.log(error.message);
+            })
+        }
+    } catch (error) {
+        console.error("please try again!");
     }
 
     setTimeout(() => {
