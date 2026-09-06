@@ -63,7 +63,7 @@ function functionClick() {
       get
         .then((res) => {
           console.log(res);
-          return req;
+          return get;
         })
         .then((data) => {
           if (data) {
@@ -71,7 +71,7 @@ function functionClick() {
           }
         })
         .catch((err) => {
-          console.log("Please try again...");
+          console.log("Please try again...", err);
         });
     }
 
