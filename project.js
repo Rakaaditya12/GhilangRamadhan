@@ -54,7 +54,27 @@ window.addEventListener("scroll", (e) => {
 });
 
 function functionClick() {
-  navbarContact.addEventListener("click", () => {
+  navbarContact.addEventListener("click", async () => {
+    const req = await fetch("https://ghilangramadhan.vercel.app/");
+    if (!req.ok) {
+      throw new Error("Error: failed");
+    } else {
+      const get = req.json();
+      get
+        .then((res) => {
+          console.log(res);
+          return req;
+        })
+        .then((data) => {
+          if (data) {
+            console.log("respon:", data);
+          }
+        })
+        .catch((err) => {
+          console.log("Please try again...");
+        });
+    }
+
     setTimeout(() => {
       contentFooter.scrollIntoView({
         behavior: "smooth",
