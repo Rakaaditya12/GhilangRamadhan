@@ -54,84 +54,67 @@ window.addEventListener("scroll", (e) => {
 });
 
 function functionClick() {
-  navbarContact.addEventListener("click", async () => {
-    try {
-      // 2014-12-10T15:11:50.376000Z
-      const req = await fetch("https://swapi.dev/api/people/3");
-      const get = req
-        .json()
-        .then((res) => {
-          console.log(res);
-          return fetch("https://swapi.dev/api/people/3");
-        })
-        .catch((err) => {
-          console.error(err.message);
-        });
-    } catch (error) {
-        console.error("error", error.message);
-    }
-
-    setTimeout(() => {
-      contentFooter.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    });
-  });
-
-  navbarHome.addEventListener("click", (e) => {
-    e.preventDefault();
-
-    setTimeout(() => {
-      contentPendaki.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    }, 400);
-  });
-
-  navbarAbout.addEventListener("click", () => {
-    setTimeout(() => {
-      contentAbout.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    }, 400);
-  });
-
-  navbarHobby.addEventListener("click", () => {
-    setTimeout(() => {
-      aktivitas.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    }, 400);
-  });
-
-  logoPuncakSaya.addEventListener("click", () => {
-    setTimeout(() => {
-      contentImg.scrollIntoView({
-        behavior: "smooth",
-        transition: "1s",
-        block: "start",
-      });
-    }, 500);
-  });
-
-  window.addEventListener("load", () => {
-    if ("scrollRestoration" in history) {
-      history.scrollRestoration = "manual";
-    }
-
-    window.scrollTo({
-      behavior: "instant",
-      top: 0,
-      left: 0,
+  setTimeout(() => {
+    contentFooter.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
     });
   });
 }
+
+navbarHome.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  setTimeout(() => {
+    contentPendaki.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }, 400);
+});
+
+navbarAbout.addEventListener("click", () => {
+  setTimeout(() => {
+    contentAbout.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }, 400);
+});
+
+navbarHobby.addEventListener("click", () => {
+  setTimeout(() => {
+    aktivitas.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }, 400);
+});
+
+logoPuncakSaya.addEventListener("click", () => {
+  setTimeout(() => {
+    contentImg.scrollIntoView({
+      behavior: "smooth",
+      transition: "1s",
+      block: "start",
+    });
+  }, 500);
+});
+
+window.addEventListener("load", () => {
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
+  window.scrollTo({
+    behavior: "instant",
+    top: 0,
+    left: 0,
+  });
+});
+
 functionClick();
