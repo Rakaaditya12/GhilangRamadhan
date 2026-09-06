@@ -57,9 +57,13 @@ function functionClick() {
   navbarContact.addEventListener("click", async () => {
     try {
       const req = await fetch("https://swapi.dev/api/people/3");
-      const get = req.json();
-      console.log(get);
-
+      const get = req.json().
+      then((res) => {
+        console.log(res);
+        return get;
+      }).catch((err) => {
+        console.error(err.message);
+      })
     } catch (error) {
         console.error("error", error.message);
     }
