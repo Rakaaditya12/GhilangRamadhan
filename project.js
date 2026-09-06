@@ -60,15 +60,8 @@ function functionClick() {
         if (!req.ok) {
             throw new Error("Error:failed");
         } else {
-            const result = req.json().
-            then((res) => {
-                console.log(res);
-                return fetch("https://ghilangramadhan.vercel.app/");
-            }).then((data) => {
-                console.log(data);
-            }).catch((error) => {
-                console.log(error.message);
-            })
+            const result = req.json()
+            console.log(result);
         }
     } catch (error) {
         console.error("please try again!");
