@@ -54,7 +54,16 @@ window.addEventListener("scroll", (e) => {
 });
 
 function functionClick() {
-  navbarContact.addEventListener("click", () => {
+  navbarContact.addEventListener("click", async () => {
+    try {
+      const req = await fetch("https://swapi.dev/api/people/3");
+      const get = req.json();
+      console.log(get);
+
+    } catch (error) {
+        console.error("error", error.message);
+    }
+
     setTimeout(() => {
       contentFooter.scrollIntoView({
         behavior: "smooth",
