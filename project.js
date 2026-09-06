@@ -56,14 +56,17 @@ window.addEventListener("scroll", (e) => {
 function functionClick() {
   navbarContact.addEventListener("click", async () => {
     try {
+      // 2014-12-10T15:11:50.376000Z
       const req = await fetch("https://swapi.dev/api/people/3");
-      const get = req.json().
-      then((res) => {
-        console.log(res[0]);
-        return fetch("https://swapi.dev/api/people/3");
-      }).catch((err) => {
-        console.error(err.message);
-      })
+      const get = req
+        .json()
+        .then((res) => {
+          console.log(res);
+          return fetch("https://swapi.dev/api/people/3");
+        })
+        .catch((err) => {
+          console.error(err.message);
+        });
     } catch (error) {
         console.error("error", error.message);
     }
