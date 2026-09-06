@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 706px) {
+  #query-perjalanan {
+    width: 150%;
+  }
+}
+
+@media (max-width: 432px) {
+  #content-head-timeline {
+    display: block;
+  }
+}
+
+@media (max-width: 430px) {
+  #query-text {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  #content-head-about {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  #content-head-about {
+    position: relative;
+    right: auto;
+  }
+}
+
+/* element perjalanan dan puncak yang sudah didaki */
+@media (max-width: 411px) {
+  #element-perjalanan {
+    font-size: 11px;
+    margin-top: 7px;
+  }
+  #element-puncak {
+    font-size: 19px;
+    margin-top: 7px;
+  }
+}
+@media (max-width: 410px) {
+  #query-perjalanan {
+    display: inline;
+  }
+}

@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofolio-ghilang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rancho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-[Poppins] bg-green-950" id="content-pendaki">
+    <header
+      class="top-0 sticky z-[9999] py-5 border-b-1 border-b-black/50 bg-white"
+    >
+      <section
+        class="flex flex-row w-full justify-between items-center lg:flex-row md:flex-col max-md:flex-col md:items-center animate__animated animate__backInLeft"
+      >
+        <nav
+          class="flex gap-1.5 items-center ml-11 p-2 lg:ml-11 md:ml-0 max-md:ml-0 cursor-pointer"
+        >
+          <a href="/project/project.html">
+            <img
+              src="/pictures/gilang_logo_panah.png"
+              alt="gambar.png"
+              class="top-0 w-7 h-7 rounded-full animate-pulse"
+            />
+          </a>
+          <a
+            href="/project/project.html"
+            class="text-black font-[Poppins] font-[600]"
+            >GhilangRamadhan</a
+          >
+        </nav>
+
+        <nav
+          class="flex gap-6 mr-7 tracking-[1px] text-sm items-center lg:mr-7 md:mr-0 max-md:mr-0"
+        >
+          <a
+            href="#Home"
+            class="opacity-80 text-black hover:text-green-800 transition duration-500"
+            id="navbar-home"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="opacity-80 text-black hover:text-green-800 transition duration-500"
+            id="navbar-about"
+            >About</a
+          >
+          <a
+            href="#"
+            class="opacity-80 text-black hover:text-green-800 transition duration-500"
+            id="navbar-hobby"
+            >Hobby</a
+          >
+          <a
+            href="#"
+            class="opacity-80 text-black hover:text-green-800 transition duration-500"
+            id="navbar-contact"
+            >Contact</a
+          >
+        </nav>
+      </section>
+    </header>
+
+    <div class="top-0 font-[Poppins, sans-serif] w-full">
+      <div
+        class="flex flex-row relative justify-around items-center py-15 bg-[url(/pictures/hutan-2-background.jpg)] bg-cover bg-center bg-no-repeat 
+        shadow-xl shadow-black/80 overflow-hidden w-full border-b-1 border-b-green-900 max-md:flex-col lg:flex-row md:flex-col"
+        id="query-header"
+      >
+        <section
+          class="p-2 flex flex-col [word-spacing:4px] gap-3 animate__animated animate__backInDown"
+        >
+          <h1
+            class="text-orange-500 font-[sans-serif] tracking-[3px] max-sm:w-"
+          >
+            PENDAKI
+            <i class="fa-solid fa-circle text-[3px] relative bottom-1"></i> 11
+            PUNCAK INDONESIA
+          </h1>
+          <h1
+            class="text-4xl font-[sans-serif] mt-2 text-white font-[900] leading-[60px] max-sm:text-2xl"
+          >
+            HALO, SAYA GHILANG<br /><span
+              class="text-[16px] italic text-white text-center px-3.5 py-2 rounded-full backdrop-blur-[5px] border-1 border-white/30 max-sm:text-[13px]"
+              >Pendaki, Explorer, &amp; Runner</span
+            >
+          </h1>
+          <p
+            class="w-150 text-lg text-justify text-white opacity-80 max-sm:text-[15px] max-sm:w-full"
+          >
+            Di waktu senggang saya lebih sering ada di jalur pendakian daripada
+            di rumah. Buat saya, jalan kaki berjam-jam sambil mikul carrier itu
+            justru cara paling ampuh buat "reset" kepala setelah minggu yang
+            padat. Ini kumpulan cerita, puncak yang sudah didaki, dan hobi lain
+            yang saya tekuni — sebagian besar juga lahir dari kebiasaan sering
+            naik-turun gunung ini.
+          </p>
+          <p
+            class="bg-green-500 w-50 text-center px-2 rounded-full py-2.5 text-white hover:bg-mist-500/50 hover:text-black hover:cursor-pointer transition duration-300"
+          >
+            <span class="text-[13px]" id="logo-puncaksaya"
+              >Lihat puncak saya</span
+            >
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </p>
+        </section>
+        <div class="top-0">
+          <img
+            src="/pictures/foto-1.png"
+            alt="gambar.png"
+            class="w-80 h-100 rounded-2xl animate__animated animate__bounceInDown animate__delay-1s brightness-90 drop-shadow-xl 
+            md:mask-t-from-60% md:mask-t-to-100% md:mask-l-from-60% md:mask-l-to-100% md:mask-r-from-60% md:mask-r-to-96% 
+            md:mask-b-from-60% md:mask-b-to-95% max-md:mask-t-from-60% max-md:mask-t-to-100% max-md:mask-l-from-60% md:mask-l-to-100% 
+            max-md:mask-r-from-60% max-md:mask-r-to-96% max-md:mask-b-from-60% max-md:mask-b-to-95%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="top-0 p-1 border-b-1 border-b-green-900 w-full">
+      <div
+        class="flex flex-row justify-around items-center py-8 px-2 font-[Poppins] max-sm:flex-wrap"
+        id="content-hero"
+      >
+        <div class="p-1 flex flex-col items-center text-center">
+          <h1
+            class="text-4xl text-green-300 sm:text-2xl md:text-4xl max-sm:text-2xl"
+          >
+            8
+          </h1>
+          <p
+            class="text-[14px] tracking-[2px] text-white/50 max-sm:text-[10px]"
+          >
+            PUNCAK DIDAKI
+          </p>
+        </div>
+        <div class="p-1 flex flex-col items-center mt-[10.6px]">
+          <h1
+            class="text-4xl p-1 text-green-300 flex flex-col text-center sm:text-2xl md:text-4xl max-sm:text-2xl"
+          >
+            2
+          </h1>
+          <p
+            class="text-[12px] tracking-[2px] text-white/50 max-sm:text-[10px]"
+          >
+            <span class="relative left-1.5">PROVINSI</span> <br />DIJELAJAHI
+          </p>
+        </div>
+        <div class="p-1 flex flex-col items-center">
+          <h1
+            class="text-4xl text-green-300 text-center sm:text-2xl md:text-4xl max-sm:text-2xl"
+          >
+            3.428
+          </h1>
+          <p
+            class="text-[14px] text-white/50 tracking-[2px] max-sm:text-[10px]"
+          >
+            MDPL TERTINGGI
+          </p>
+        </div>
+        <div class="p-1 flex flex-col items-center">
+          <h1
+            class="text-4xl text-green-300 text-center sm:text-2xl md:text-4xl max-sm:text-2xl"
+          >
+            3+
+          </h1>
+          <p
+            class="text-[14px] text-white/50 tracking-[2px] max-sm:text-[10px]"
+          >
+            TAHUN MENDAKI
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-0 max-w-full p-1" id="content-img">
+      <div class="flex items-center py-10 px-23">
+        <div class="p-2 flex flex-col gap-2.5" id="query-perjalanan">
+          <p class="text-green-400 tracking-[5px] max-sm:text-[14px]">
+            PERJALANAN
+          </p>
+          <h1
+            class="text-white font-[800] text-3xl tracking-[2px] max-sm:text-2xl"
+            id="element-puncak"
+          >
+            PUNCAK YANG SUDAH DIDAKI
+          </h1>
+        </div>
+      </div>
+      <div
+        class="flex flex-row flex-wrap justify-center items-center gap-12 py-2"
+      >
+        <div
+          class="bg-[url(/pictures/jateng-slamet.jpeg)] w-70 h-81 overflow-hidden rounded-2xl bg-cover bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 
+          before:content-[''] before:absolute before:z-0 before:w-70 before:h-0 before:bg-black/20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] 
+          hover:before:h-81 relative"
+        >
+          <p class="text-green-500 mt-50 ml-7 relative z-10">
+            JAWA TENGAH - 2022 <br /><span class="text-white font-[800] text-2xl"
+              >SLAMET</span
+            >
+            <br /><span class="text-black">3.428 mdpl</span>
+          </p>
+        </div>
+        <div
+          class="bg-[url(/pictures/foto-3.jpeg)] w-70 h-81 bg-cover overflow-hidden rounded-2xl bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 
+          before:content-[''] before:absolute before:w-70 before:h-0 before:bg-black/20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] 
+          hover:before:h-81 relative"
+        >
+          <p class="text-green-500 mt-50 ml-7 relative z-10">
+            JAWA TENGAH - 2022 <br /><span class="text-white font-[800] text-2xl"
+              >MERBABU</span
+            ><br /><span class="text-black">3.137 mdpl</span>
+          </p>
+        </div>
+        <div
+          class="bg-[url(/pictures/foto-8.jpeg)] w-70 h-81 bg-cover overflow-hidden rounded-2xl bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 
+          before:content-[''] before:absolute before:w-70 before:h-0 before:bg-black/20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] 
+          hover:before:h-81 relative"
+        >
+          <p class="text-green-500 mt-50 ml-7 relative z-10">
+            Jawa BARAT - 2023 <br /><span
+              class="text-white font-[800] text-2xl"
+              >GEDE PANGRANGO</span
+            ><br /><span class="text-black">3.145 mdpl</span>
+          </p>
+        </div>
+        <div
+          class="bg-[url(/pictures/foto-6.jpeg)] w-70 h-81 rounded-xl bg-cover bg-no-repeat bg-center overflow-hidden cursor-pointer hover:scale-110 transition duration-500 
+          before:content-[''] before:absolute before:w-70 before:h-0 before:bg-black/20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] 
+          hover:before:h-81 relative"
+        >
+          <p class="text-green-500 mt-50 ml-7 relative z-10">
+            SUMATERA - 2023 <br /><span class="text-white font-[800] text-2xl"
+              >KERINCI</span
+            ><br /><span class="text-black">3.805 mdpl</span>
+          </p>
+        </div>
+
+        <div
+          class="bg-[url(/pictures/foto-2.jpeg)] w-70 h-81 rounded-xl bg-cover bg-no-repeat bg-center overflow-hidden cursor-pointer hover:scale-110 transition duration-500 
+          before:content-[''] before:absolute before:w-70 before:h-0 before:bg-black/20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] 
+          hover:before:h-81 relative"
+        >
+          <p class="text-green-500 mt-50 ml-7 relative z-10">
+            JAWA TENGAH - 2023 <br /><span class="text-white font-[800] text-2xl"
+              >SINDORO</span
+            ><br /><span class="text-black">3.153 mdpl</span>
+          </p>
+        </div>
+        <div
+          class="bg-[url(/pictures/foto-7.jpeg)] w-70 h-81 rounded-xl bg-cover bg-no-repeat bg-center overflow-hidden cursor-pointer hover:scale-110 transition-transform transition duration-500 hover:bg-green-500 
+          before:content-[''] before:absolute before:w-70 before:h-0 before:bg-black/20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] 
+          hover:before:h-81 relative"
+        >
+          <p class="text-green-500 mt-50 ml-7 relative z-10">
+            JAWA TENGAH <br /><span class="text-white font-[800] text-2xl"
+              >SUMBING</span
+            ><br /><span class="text-black">3.371 mdpl</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="top-0 px-1 py-2 border-none shadow-2xl shadow-green-900 max-md:bg-[url(/pictures/hutan-1-background.jpg)] md:bg-[url(/pictures/hutan-1-background.jpg)] 
+      sm:mt-15 md:mt-15 lg:flex-row md:flex-col lg:bg-none lg:mt-40 md:mt-40 max-md:mt-40"
+    >
+      <section
+        class="top-0 max-full px-3 py-4 max-md:px-0 mx-auto"
+        id="content-about"
+      >
+        <div class="top-0 px-5 py-6 md:p-0">
+          <div class="top-0 px-7 py-8 md:px-15 max-md:px-15 max-md:py-2">
+            <div
+              class="flex justify-center mx-auto items-center top-0 px-9 py-8 gap-16 max-md:px-2 w-full"
+              id="query-text"
+            >
+              <div class="max-width-full">
+                <img
+                  src="/pictures/hutan-1-background.jpg"
+                  alt="gambar.png"
+                  class="w-100 h-120 rounded-2xl max-md:hidden md:hidden lg:flex"
+                />
+              </div>
+              <div class="mb-auto flex flex-col" id="content-head-about">
+                <h1 class="text-green-400 mt-10">TENTANG SAYA</h1>
+                <h1
+                  class="text-white text-4xl font-[700] tracking-[1px] font-[Inter, cursive] mt-5 sm:text-[23px] max-sm:text-[23px] md:text-4xl lg:text-white lg:font-[700] md:text-black/70 max-md:text-black/70 sm:text-black/70"
+                >
+                  GUNUNG BUKAN <br />SEKEDAR TUJUAN
+                </h1>
+                <p
+                  class="w-120 text-white/60 mt-4 max-sm:text-[16px] max-sm:w-70 max-sm:text-justify lg:text-white/60 md:text-black/60 max-md:text-black/70"
+                >
+                  Saya Ghilang Ramadhan — seorang yang percaya bahwa jalur
+                  pendakian adalah tempat terbaik untuk berpikir jernih. Bukan
+                  karena tidak ada sinyal, tapi karena di sana hanya ada langkah
+                  demi langkah, dan tujuan yang sederhana sampai puncak.
+                </p>
+                <p
+                  class="w-121.5 text-white/60 mt-4 max-sm:text-[16px] max-sm:w-70 max-sm:text-justify lg:text-white/60 md:text-black/60 max-md:text-black/70"
+                >
+                  Sejak 2020, saya sudah menjejaki 11 puncak dari sabang sampai
+                  sulawesi. Setiap gunung punya karakternya sendiri — jalurnya,
+                  cuacanya, orangnya. Dan setiap pendakian selalu meninggalkan
+                  sesuatu yang berbeda.
+                </p>
+                <p
+                  class="w-120 text-white/60 mt-4 max-sm:text-[16px] max-sm:w-70 max-sm:text-justify lg:text-white/60 md:text-black/60 max-md:text-black/70"
+                >
+                  Di luar gunung, saya juga aktif trail running, fotografi alam,
+                  dan sesekali menulis trip report buat siapa saja yang mau
+                  mulai mendaki.
+                </p>
+                <h2
+                  class="text-white/70 w-50 border border-green-600 py-4 px-5 rounded-xl relative right-60 bottom-5 bg-green-950 max-md:ml-100 max-lg:hidden"
+                >
+                  <span class="text-2xl text-green-300">2024</span> <br /><span
+                    class="text-base tracking-[2px]"
+                    >MULAI MENDAKI</span
+                  >
+                </h2>
+                <div class="flex flex-row items-center gap-5 mt-5">
+                  <p
+                    class="border border-green-600 py-1 px-4 rounded-2xl text-[14px] text-green-500 max-sm:text-[12px] backdrop-blur-[15px] max-sm:text-center"
+                  >
+                    Trail Running
+                  </p>
+                  <p
+                    class="border border-green-600 py-1 px-4 rounded-2xl text-[14px] text-green-500 max-sm:text-[12px] backdrop-blur-[15px] max-sm:py-3.5 md:py-1 max-md:py-1"
+                  >
+                    Fotografi
+                  </p>
+                  <p
+                    class="border border-green-600 py-1 px-4 rounded-2xl text-[14px] text-green-500 max-sm:text-[12px] backdrop-blur-[15px] max-sm:py-3.5 md:py-1 max-md:py-1"
+                  >
+                    Menulis
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center relative flex flex-col gap-4 mt-20">
+        <p class="text-green-500 tracking-[2px]">PERJALANAN</p>
+        <h1 class="text-4xl text-white font-bold tracking-[1px]">
+          TIMELINE PENDAKIAN
+        </h1>
+      </div>
+      <div class="relative" id="content-timeline">
+        <!-- Garis vertikal di tengah -->
+        <div
+          class="absolute left-1/2 top-0 bottom-0 w-px bg-emerald-800/40 -translate-x-1/2"
+        ></div>
+
+        <!-- ITEM 1 - kiri -->
+        <div class="relative flex items-center mb-16 mt-15">
+          <div class="w-1/2 pr-12">
+            <div
+              class="bg-emerald-950/30 border border-emerald-800/40 rounded-2xl p-6 text-right"
+            >
+              <p class="text-emerald-400 text-sm mb-1">2020</p>
+              <h3
+                class="text-white font-bold text-xl mb-2 max-sm:text-lg max-sm:text-[15px]"
+              >
+                Prau &amp; Andong
+              </h3>
+              <p class="text-gray-400 max-sm:text-[13px] max-sm:text-end">
+                Pendakian pertama, jatuh cinta sama sunrisnya.
+              </p>
+            </div>
+          </div>
+          <div
+            class="absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-[#0a1410] border-2 border-emerald-500 flex items-center justify-center text-2xl"
+          >
+            🏔️
+          </div>
+          <div class="w-1/2"></div>
+        </div>
+
+        <!-- ITEM 2 - kanan -->
+        <div class="relative flex items-center mb-16">
+          <div class="w-1/2"></div>
+          <div
+            class="absolute left-1/2 bg-violet-500 -translate-x-1/2 w-14 h-14 rounded-full bg-[#0a1410] border-2 border-emerald-500 flex items-center justify-center text-2xl"
+          >
+            🎒
+          </div>
+          <div class="w-1/2 pl-12">
+            <div
+              class="bg-emerald-950/30 border border-emerald-800/40 rounded-2xl p-6 text-left"
+            >
+              <p class="text-emerald-400 text-sm mb-1">2021</p>
+              <h3 class="text-white font-bold text-xl mb-2 max-sm:text-[15px]">
+                Papandayan, Merbabu, Lawu
+              </h3>
+              <p class="text-gray-400 max-sm:text-[13px]">
+                Mulai serius, beli carrier pertama yang proper.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ITEM 3 - kiri -->
+        <div class="relative flex items-center">
+          <div class="w-1/2 pr-12">
+            <div
+              class="bg-emerald-950/30 border border-emerald-800/40 rounded-2xl p-6 text-right"
+            >
+              <p class="text-emerald-400 text-sm mb-1">2022</p>
+              <h3 class="text-white font-bold text-xl mb-2 max-sm:text-[15px]">
+                Semeru &amp; Rinjani
+              </h3>
+              <p class="text-gray-400 max-sm:text-[13px]">
+                Dua gunung ikonik dalam satu tahun. Fisik jadi tantangan utama.
+              </p>
+            </div>
+          </div>
+          <div
+            class="absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-[#0a1410] border-2 border-emerald-500 flex items-center justify-center text-2xl"
+          >
+            ⛰️
+          </div>
+          <div class="w-1/2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-5 max-w-full" id="content-aktivitas">
+      <div
+        class="flex items-center top-0 py-6 px-6 md:justify-center max-md:justify-center lg:justify-start lg:items-center"
+      >
+        <div class="flex flex-col gap-3 px-9 py-1 mt-25">
+          <p
+            class="text-green-400 max-md:text-center max-sm:text-md max-sm:tracking-[2px] md:text-center lg:text-start"
+          >
+            AKTIVITAS
+          </p>
+          <h1
+            class="text-white font-bold text-4xl max-sm:text-center max-sm:text-2xl max-sm:tracking-[1px]"
+          >
+            HOBI &amp; KEGIATAN
+          </h1>
+        </div>
+      </div>
+      <div
+        class="flex flex- justify-between px-15 max-md:px-2 max-md:flex-col max-md:items-center md:flex-col md:items-center lg:flex-row max-md:justify-center max-lg:gap-9"
+      >
+        <div
+          class="border border-green-700 w-55 px-5 py-8 rounded-xl flex flex-col gap-3 bg-emerald-950"
+        >
+          <p class="text-3xl">🏃</p>
+          <p class="text-green-600">
+            <span class="border px-4 py-0.5 text-sm rounded-full">aktif</span>
+          </p>
+          <p class="text-white font-bold">Trail Running</p>
+          <p class="text-white font-[100]">
+            Latihan fisik sekaligus eksplorasi jalur baru. Rutin 3× seminggu.
+          </p>
+        </div>
+        <div
+          class="border border-green-700 w-55 px-5 py-5 rounded-xl flex flex-col gap-3 bg-emerald-950"
+        >
+          <p class="text-3xl">📷</p>
+          <p class="text-green-600">
+            <span class="border px-4 py-0.5 text-sm rounded-full">Kreatif</span>
+          </p>
+          <p class="text-white font-bold relative">Fotografi Alam</p>
+          <p class="text-white font-[100]">
+            Mengabadikan momen golden hour di puncak. Main gear mirrorless.
+          </p>
+        </div>
+        <div
+          class="border border-green-700 w-55 px-5 py-8 rounded-xl flex flex-col gap-3 bg-emerald-950"
+        >
+          <p class="text-3xl">🗺️</p>
+          <p class="text-green-600">
+            <span class="border px-4 py-0.5 text-sm rounded-full">Teknis</span>
+          </p>
+          <p class="text-white font-bold">Route Planning</p>
+          <p class="text-white font-[100]">
+            Research jalur, cuaca, dan logistik pendakian. Detail-oriented.
+          </p>
+        </div>
+        <div
+          class="border border-green-700 w-55 px-5 py-8 rounded-xl flex flex-col gap-3 bg-emerald-950"
+        >
+          <p class="text-3xl">📖</p>
+          <p class="text-green-600">
+            <span class="border px-4 py-0.5 text-sm rounded-full">Kreatif</span>
+          </p>
+          <p class="text-white font-bold">Menulis</p>
+          <p class="text-white font-[100]">
+            Trip report dan cerita perjalanan di blog personal.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col justify-center items-center h-[80vh] bg-[url(/pictures/footer-bg-6.jpg)] bg-cover bg-no-repeat bg-center w-full 
+      mask-t-from-60% mask-t-to-100% gap-4 mask-b-from-80% mask-b-to-95% shadow-2xl shadow-white border-2 border-white"
+    >
+      <div class="flex flex-col gap-3">
+        <p class="text-green-500 text-center text-xl tracking-[2px]">HUBUNGI</p>
+        <h1
+          class="text-6xl text-white font-bold md:text-center max-md:text-center"
+        >
+          YUK NGOBROL
+        </h1>
+      </div>
+      <div class="flex flex-col">
+        <p class="text-white font-[200] md:text-center max-md:text-center">
+          mau tanya soal pendakian, kolaborasi trip, atau sekadar berbagi cerita
+          tentang gunung?
+        </p>
+      </div>
+      <div class="flex flex-row gap-8 items-center mt-5">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=giharamahatun@gmail.com"
+          target="_blank" rel="noopener noreferrer"
+          class="text-white font-bold bg-green-500 px-8 py-3 rounded-full hover:opacity-70 transition duration-[0.5s]"
+          >Kirim Email</a
+        >
+        <a
+          href="https://www.instagram.com/ggilangrmdhan/"
+          target="_blank" rel="noopener noreferrer"
+          class="backdrop-blur-[2px] bg-white/30 px-8 py-3 rounded-full border-1 border-white/30 hover:border-white transition duration-[0.4s]"
+          >Instagram</a
+        >
+      </div>
+    </div>
+
+    <footer class="mx-auto max-w-full bg-emerald-950" id="content-footer">
+      <div class="w-max-content">
+        <div
+          class="flex flex-row justify-around items-center py-6 px-3 h-[20vh] max-md:flex-col"
+        >
+          <div class="flex flex-row items-center">
+            <img
+              src="/pictures/gilang_logo_panah.png"
+              alt="gambar.png"
+              class="w-7 h-7 rounded-full bg-green-950"
+            />
+            <p class="p-2 text-white/70">GhilangRamadhan</p>
+          </div>
+          <div class="flex flex-row items-center max-md:gap-1.5">
+            <span class="text-white opacity-50 text-md">&copy;</span>
+            <p class="text-white opacity-50 text-sm">
+             Dibuat dengan ❤️ dan semangat mendaki
+            </p>
+          </div>
+          <div
+            class="flex flex-row items-center gap-4 text-sm text-white opacity-50"
+          >
+            <a
+              href="https://www.instagram.com/ggilangrmdhan/" 
+              target="_blank" rel="noopener noreferrer"
+              class="transition duration-300 hover:text-green-500"
+              >Instagram</a
+            >
+            <a
+              href="https://strava.app.link/vLx6XIRXc6b" 
+              target="_blank" rel="noopener noreferrer"
+              class="transition duration-300 hover:text-green-500"
+              >Strava</a
+            >
+            <!-- https://mail.google.com/mail/?view=cm&fs=1&to=giharamahatun@gmail.com -->
+            <a
+              href="https://mail.google.com"
+              target="_blank" rel="noopener noreferrer"
+              class="transition duration-300 hover:text-green-500"
+              >Email</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="project.js"></script>
+  </body>
+</html>
