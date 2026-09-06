@@ -68,6 +68,7 @@ function functionClick() {
         .then((data) => {
           if (data) {
             console.log("respon:", data);
+            return get;
           }
         })
         .catch((err) => {
