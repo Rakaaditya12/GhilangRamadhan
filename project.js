@@ -10,6 +10,7 @@ const navbarHobby = document.getElementById("navbar-hobby");
 const navbarContact = document.getElementById("navbar-contact");
 const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
+const queryPerjalanan = document.getElementById("query-perjalanan");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY < 3200) {
@@ -106,7 +107,7 @@ logoPuncakSaya.addEventListener("click", (e) => {
     contentImg.scrollIntoView({
       behavior: "smooth",
       block: "start",
-      inline: "end"
+      inline: "start"
     });
   }, 500);
 });
