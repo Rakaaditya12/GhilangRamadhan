@@ -100,7 +100,7 @@ navbarHobby.addEventListener("click", (e) => {
 });
 
 logoPuncakSaya.addEventListener("click", (e) => {
-  e.preventDefault();
+  e.preventDefault()
 
   setTimeout(() => {
     contentImg.scrollIntoView({
