@@ -10,11 +10,6 @@ const navbarHobby = document.getElementById("navbar-hobby");
 const navbarContact = document.getElementById("navbar-contact");
 const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
-const elementA = document.querySelectorAll("a");
-
-elementA.addEventListener("click", (e) => {
-  e.preventDefault();
-})
 
 window.addEventListener("scroll", () => {
   if (window.scrollY < 3200) {
@@ -59,7 +54,9 @@ window.addEventListener("scroll", (e) => {
 });
 
 function functionClick() {
-  navbarContact.addEventListener("click", () => {
+  navbarContact.addEventListener("click", (e) => {
+    e.preventDefault();
+
     setTimeout(() => {
       contentFooter.scrollIntoView({
         behavior: "smooth",
@@ -80,7 +77,9 @@ navbarHome.addEventListener("click", (e) => {
   }, 400);
 });
 
-navbarAbout.addEventListener("click", () => {
+navbarAbout.addEventListener("click", (e) => {
+  e.preventDefault();
+
   setTimeout(() => {
     contentAbout.scrollIntoView({
       behavior: "smooth",
@@ -89,7 +88,9 @@ navbarAbout.addEventListener("click", () => {
   }, 400);
 });
 
-navbarHobby.addEventListener("click", () => {
+navbarHobby.addEventListener("click", (e) => {
+  e.preventDefault();
+
   setTimeout(() => {
     aktivitas.scrollIntoView({
       behavior: "smooth",
@@ -98,7 +99,9 @@ navbarHobby.addEventListener("click", () => {
   }, 400);
 });
 
-logoPuncakSaya.addEventListener("click", () => {
+logoPuncakSaya.addEventListener("click", (e) => {
+  e.preventDefault();
+
   setTimeout(() => {
     contentImg.scrollIntoView({
       behavior: "smooth",
