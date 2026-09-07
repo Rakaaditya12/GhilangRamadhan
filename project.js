@@ -59,7 +59,6 @@ function functionClick() {
       contentFooter.scrollIntoView({
         behavior: "smooth",
         block: "start",
-        inline: "nearest",
       });
     }, 400);
   });
@@ -72,7 +71,6 @@ navbarHome.addEventListener("click", (e) => {
     contentPendaki.scrollIntoView({
       behavior: "smooth",
       block: "start",
-      inline: "nearest",
     });
   }, 400);
 });
@@ -82,7 +80,6 @@ navbarAbout.addEventListener("click", () => {
     contentAbout.scrollIntoView({
       behavior: "smooth",
       block: "start",
-      inline: "nearest",
     });
   }, 400);
 });
@@ -92,7 +89,6 @@ navbarHobby.addEventListener("click", () => {
     aktivitas.scrollIntoView({
       behavior: "smooth",
       block: "start",
-      inline: "nearest",
     });
   }, 400);
 });
@@ -101,7 +97,6 @@ logoPuncakSaya.addEventListener("click", () => {
   setTimeout(() => {
     contentImg.scrollIntoView({
       behavior: "smooth",
-      transition: "1s",
       block: "start",
     });
   }, 500);
@@ -111,12 +106,6 @@ window.addEventListener("load", () => {
   if ("scrollRestoration" in history) {
     history.scrollRestoration = "manual";
   }
-
-  window.scrollTo({
-    behavior: "instant",
-    top: 0,
-    left: 0,
-  });
 });
 
 functionClick();
