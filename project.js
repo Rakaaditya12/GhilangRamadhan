@@ -106,6 +106,7 @@ logoPuncakSaya.addEventListener("click", (e) => {
     contentImg.scrollIntoView({
       behavior: "smooth",
       block: "start",
+      inline: "end"
     });
   }, 500);
 });
