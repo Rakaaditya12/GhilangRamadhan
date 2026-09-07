@@ -7,7 +7,7 @@ html {
 
 @media (max-width: 706px) {
   #query-perjalanan {
-    width: 150%;
+    /* width: 150%; */
   }
 }
 
