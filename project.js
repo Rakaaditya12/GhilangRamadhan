@@ -101,26 +101,21 @@ navbarHobby.addEventListener("click", (e) => {
 });
 
 logoPuncakSaya.addEventListener("click", (e) => {
-  e.preventDefault()
+  e.preventDefault();
 
   setTimeout(() => {
     contentImg.scrollIntoView({
       behavior: "smooth",
       block: "start",
-      inline: "center"
+      inline: "center",
     });
   }, 500);
 });
 
-const performanceHalaman = performance.getEntriesByType("navigation")[0];
-if (performanceHalaman.type === "reload") {
-  window.location.href = "index.html";
-}
+window.addEventListener("load", () => {
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+});
 
-// window.addEventListener("load", () => {
-//   if ("scrollRestoration" in history) {
-//     history.scrollRestoration = "manual";
-//   }
-// });
-
-// functionClick();
+functionClick();
