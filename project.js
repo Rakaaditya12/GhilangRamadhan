@@ -117,5 +117,3 @@ window.addEventListener("load", () => {
     history.scrollRestoration = "manual";
   }
 });
-
-functionClick();
