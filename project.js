@@ -112,10 +112,15 @@ logoPuncakSaya.addEventListener("click", (e) => {
   }, 500);
 });
 
-window.addEventListener("load", () => {
-  if ("scrollRestoration" in history) {
-    history.scrollRestoration = "manual";
-  }
-});
+const performanceHalaman = performance.getEntriesByType("navigation")[0];
+if (performanceHalaman.type === "reload") {
+  window.location.href = "index.html";
+}
 
-functionClick();
+// window.addEventListener("load", () => {
+//   if ("scrollRestoration" in history) {
+//     history.scrollRestoration = "manual";
+//   }
+// });
+
+// functionClick();
