@@ -54,18 +54,13 @@ window.addEventListener("scroll", (e) => {
   }
 });
 
-function functionClick() {
-  navbarContact.addEventListener("click", (e) => {
-    e.preventDefault();
+navbarContact.addEventListener("click", (e) => {
+  e.preventDefault();
 
-    setTimeout(() => {
-      contentFooter.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }, 400);
-  });
-}
+  setTimeout(() => {
+    contentFooter.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 400);
+});
 
 navbarHome.addEventListener("click", (e) => {
   e.preventDefault();
@@ -116,7 +111,7 @@ window.addEventListener("load", refreshPage);
 const refreshPage = () => {
   const refresh = performance.getEntriesByType("navigation")[0];
   if (refresh.entryType === "reload") {
-    window.location.href = "index.html"
+    window.location.href = "index.html";
   }
   return;
-}
+};
