@@ -10,6 +10,11 @@ const navbarHobby = document.getElementById("navbar-hobby");
 const navbarContact = document.getElementById("navbar-contact");
 const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
+const elementA = document.querySelectorAll("a");
+
+elementA.addEventListener("click", (e) => {
+  e.preventDefault();
+})
 
 window.addEventListener("scroll", () => {
   if (window.scrollY < 3200) {
