@@ -31,11 +31,11 @@ window.addEventListener("scroll", (e) => {
     contentHero.style.opacity = "";
   }
 
-  if (window.scrollY < 500) {
+  if (window.scrollY < 400) {
     contentImg.style.transform = "translateX(-300px)";
     contentImg.style.transition = "1s";
     contentImg.style.opacity = "0";
-  } else if (window.scrollY > 500) {
+  } else if (window.scrollY > 400) {
     contentImg.style.transform = "";
     contentImg.style.opacity = "";
   }
