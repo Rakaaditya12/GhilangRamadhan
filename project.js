@@ -27,11 +27,9 @@ window.addEventListener("scroll", (e) => {
   e.preventDefault();
 
   if (window.scrollY < 1500) {
-    contentAbout.style.transform = "translateY(3000px)";
     contentAbout.style.transition = "0.8s";
     contentAbout.style.opacity = "0";
   } else if (window.scrollY > 1500) {
-    contentAbout.style.transform = "";
     contentAbout.style.opacity = "1";
   }
 });
