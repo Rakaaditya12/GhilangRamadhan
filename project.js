@@ -46,7 +46,7 @@ window.addEventListener("scroll", (e) => {
 
   if (window.scrollY < 400) {
     contentImg.style.transform = "translateX(-300px)";
-    contentImg.style.transition = "1s";
+    contentImg.style.transition = "1.3s";
     contentImg.style.opacity = "0";
   } else if (window.scrollY > 400) {
     contentImg.style.transform = "";
