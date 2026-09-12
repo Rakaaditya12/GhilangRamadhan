@@ -54,6 +54,5 @@ html {
 }
 
 #menu .active {
-  display: flex;
-  flex-direction: column;
+  display: none;
 }
