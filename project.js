@@ -12,11 +12,16 @@ const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
 const button = document.getElementById("btn-click");
+const element = document.querySelector("#menu a");
 
 button.addEventListener("click", () => {
   setTimeout(() => {
     const menu = document.getElementById("menu");
     menu.classList.toggle("active");
+
+    element.addEventListener("click", () => {
+      menu.classList.toggle("remove");
+    })
   }, 400);
 });
 
