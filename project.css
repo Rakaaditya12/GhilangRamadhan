@@ -52,3 +52,8 @@ html {
     display: inline;
   }
 }
+
+.active {
+  display: flex;
+  flex-direction: column;
+}
