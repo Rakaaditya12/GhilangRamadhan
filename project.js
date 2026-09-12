@@ -20,7 +20,6 @@ button.addEventListener("click", () => {
   menu.style.borderColor = "white";
   menu.style.padding = "0.5em";
   menu.style.transition = "0.8s";
-
 });
 
 window.addEventListener("scroll", (e) => {
