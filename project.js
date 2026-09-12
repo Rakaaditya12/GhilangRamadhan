@@ -18,7 +18,7 @@ window.addEventListener("scroll", (e) => {
   if (window.scrollY < 2900) {
     aktivitas.style.opacity = "0";
     aktivitas.style.transition = "1s";
-  } else if (window.scrollY > 2800) {
+  } else if (window.scrollY > 3100) {
     aktivitas.style.opacity = "";
   }
 });
