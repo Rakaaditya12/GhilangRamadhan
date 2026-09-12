@@ -30,7 +30,7 @@ window.addEventListener("scroll", (e) => {
     contentAbout.style.transform = "translateY(3000px)";
     contentAbout.style.transition = "0.8s";
     contentAbout.style.opacity = "0";
-  } else {
+  } else if (window.scrollY > 800) {
     contentAbout.style.transform = "";
     contentAbout.style.opacity = "1";
   }
