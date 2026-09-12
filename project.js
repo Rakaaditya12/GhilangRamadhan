@@ -17,9 +17,6 @@ const menu = document.getElementById("menu");
 button.addEventListener("click", () => {
   setTimeout(() => {
     menu.classList.toggle("active");
-    menu.style.display = "flex";
-    menu.style.flexDirection = "column";
-    menu.style.transition = "0.9s";
   }, 400);
 });
 
