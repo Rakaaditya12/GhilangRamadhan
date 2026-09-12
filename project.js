@@ -12,12 +12,27 @@ const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
 
-window.addEventListener("scroll", () => {
+window.addEventListener("scroll", (e) => {
+  e.preventDefault();
+
   if (window.scrollY < 3200) {
     aktivitas.style.opacity = "0";
     aktivitas.style.transition = "1s";
   } else if (window.scrollY > 2800) {
     aktivitas.style.opacity = "";
+  }
+});
+
+window.addEventListener("scroll", (e) => {
+  e.preventDefault();
+
+  if (window.scrollY < 800) {
+    contentAbout.style.transform = "translateY(3000px)";
+    contentAbout.style.transition = "0.8s";
+    contentAbout.style.opacity = "0";
+  } else {
+    contentAbout.style.transform = "";
+    contentAbout.style.opacity = "1";
   }
 });
 
