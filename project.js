@@ -18,10 +18,6 @@ button.addEventListener("click", () => {
   const menu = document.getElementById("menu");
   menu.style.transition = "1s";
   menu.classList.toggle("active");
-
-  element.addEventListener("click", () => {
-    menu.classList.toggle("remove");
-  });
 });
 
 window.addEventListener("scroll", (e) => {
