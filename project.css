@@ -56,7 +56,4 @@ html {
 #menu.active {
   display: flex;
   flex-direction: row;
-  border: 1px solid;
-  border-color: white;
-  padding: 0.5em;
 }
