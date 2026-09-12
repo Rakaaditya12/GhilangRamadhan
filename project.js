@@ -16,10 +16,6 @@ const button = document.getElementById("btn-click");
 button.addEventListener("click", () => {
   const menu = document.getElementById("menu");
   menu.classList.toggle("active");
-  menu.style.border = "1px solid";
-  menu.style.borderColor = "white";
-  menu.style.padding = "0.5em";
-  menu.style.transition = "0.8s";
 });
 
 window.addEventListener("scroll", (e) => {
