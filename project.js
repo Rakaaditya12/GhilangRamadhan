@@ -107,7 +107,7 @@ logoPuncakSaya.addEventListener("click", (e) => {
   }, 500);
 });
 
-const refreshPerformance = performance.getEntriesByName("navigation")[0];
+const refreshPerformance = performance.getEntriesByType("navigation")[0];
 if (refreshPerformance.type === "reload") {
   window.location.href = "index.html";
 } else {
