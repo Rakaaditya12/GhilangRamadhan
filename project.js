@@ -15,7 +15,7 @@ const queryPerjalanan = document.getElementById("query-perjalanan");
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
 
-  if (window.scrollY < 3200) {
+  if (window.scrollY < 2900) {
     aktivitas.style.opacity = "0";
     aktivitas.style.transition = "1s";
   } else if (window.scrollY > 2800) {
