@@ -16,6 +16,7 @@ const element = document.querySelector("#menu a");
 
 button.addEventListener("click", () => {
   const menu = document.getElementById("menu");
+  menu.style.transition = "1s";
   menu.classList.toggle("active");
 
   element.addEventListener("click", () => {
