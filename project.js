@@ -21,6 +21,7 @@ button.addEventListener("click", () => {
 
     element.addEventListener("click", () => {
       menu.classList.toggle("remove");
+      menu.style.display = "none";
     })
   }, 400);
 });
