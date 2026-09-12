@@ -12,12 +12,16 @@ const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
 const button = document.getElementById("btn-click");
-const element = document.querySelector("#menu a");
+const menuActive = document.querySelector(".active");
 
 button.addEventListener("click", () => {
   const menu = document.getElementById("menu");
-  menu.style.transition = "1s";
   menu.classList.toggle("active");
+  menuActive.style.border = "1px solid";
+  menuActive.style.borderColor = "white";
+  menuActive.style.padding = "0.5em";
+  menuActive.style.transition = "0.8s";
+
 });
 
 window.addEventListener("scroll", (e) => {
