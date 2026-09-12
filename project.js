@@ -110,4 +110,6 @@ logoPuncakSaya.addEventListener("click", (e) => {
 const refreshPerformance = performance.getEntriesByName("navigation")[0];
 if (refreshPerformance.entryType === "reload") {
   window.location.href = "index.html";
+} else {
+  console.error("Error:failed");
 }
