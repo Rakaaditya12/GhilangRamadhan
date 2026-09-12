@@ -15,15 +15,12 @@ const button = document.getElementById("btn-click");
 const element = document.querySelector("#menu a");
 
 button.addEventListener("click", () => {
-  setTimeout(() => {
-    const menu = document.getElementById("menu");
-    menu.classList.toggle("active");
+  const menu = document.getElementById("menu");
+  menu.classList.toggle("active");
 
-    element.addEventListener("click", () => {
-      menu.classList.toggle("remove");
-      menu.style.display = "none";
-    })
-  }, 400);
+  element.addEventListener("click", () => {
+    menu.classList.toggle("remove");
+  });
 });
 
 window.addEventListener("scroll", (e) => {
