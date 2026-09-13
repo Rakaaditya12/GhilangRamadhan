@@ -16,7 +16,13 @@ const button = document.getElementById("btn-click");
 function toggleMenu() {
   button.addEventListener("click", () => {
     const menu = document.getElementById("menu");
-    menu.classList.toggle("active");
+    let vissible = false;
+
+    if (vissible === false) {
+      menu.classList.toggle("active");
+    } else {
+      console.error("error:toggle");
+    }
   });
 }
 
