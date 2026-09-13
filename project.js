@@ -18,6 +18,8 @@ function toggleMenu() {
     const menu = document.getElementById("menu");
     let vissible = false;
 
+    menu.style.width = "120%";
+
     if (vissible === false) {
       menu.classList.toggle("active");
       vissible = true;
