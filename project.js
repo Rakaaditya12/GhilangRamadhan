@@ -18,7 +18,12 @@ function toggleMenu() {
     const menu = document.getElementById("menu");
     let vissible = false;
 
-    menu.style.width = "120%";
+    menu.style.width = "500px";
+    menu.style.transition = "1s";
+    menu.style.border = "1px solid";
+    menu.style.borderColor = "white";
+    menu.style.position = "absolute";
+    menu.style.display = "block";
 
     if (vissible === false) {
       menu.classList.toggle("active");
