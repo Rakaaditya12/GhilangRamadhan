@@ -55,6 +55,7 @@ html {
 
 #content-hero {
   animation: contentHero 2.5s linear infinite;
+  transition: 1.5s;
 }
 
 @keyframes contentHero {
