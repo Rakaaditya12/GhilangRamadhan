@@ -54,7 +54,7 @@ html {
 }
 
 #content-hero {
-  animation: contentHero 2.5s linear infinite;
+  animation: contentHero 4s linear infinite;
   transition: 1.5s;
 }
 
@@ -63,6 +63,6 @@ html {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(-500px);
+    transform: translateX(-800px);
   }
 }
