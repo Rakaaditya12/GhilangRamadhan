@@ -54,15 +54,14 @@ html {
 }
 
 #content-hero {
-  animation: contentHero 1.3s linear ease-in;
-  transform: translateX(0);
+  animation: contentHero 1.3s linear ease-in infinite;
 }
 
 @keyframes contentHero {
   from {
-    transform: translateX(-500px);
+    transform: translateX(0px);
   }
   to {
-    transform: translateX(0px);
+    transform: translateX(-300px);
   }
 }
