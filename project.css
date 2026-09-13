@@ -53,11 +53,11 @@ html {
   }
 }
 
-#content-hero {
-  animation: contentHero 1.3s linear ease-in infinite;
+#child-content-hero {
+  animation: childContentHero 1.3s linear ease-in infinite;
 }
 
-@keyframes contentHero {
+@keyframes childContentHero {
   from {
     transform: translateX(0px);
   }
