@@ -21,8 +21,6 @@ function toggleMenu() {
     if (vissible === false) {
       menu.classList.toggle("active");
       vissible = true;
-      menu.style.transform = "translateX(-80px)"
-      menu.style.transition = "1s"
     } else {
       console.error("error:toggle");
     }
