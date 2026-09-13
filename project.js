@@ -13,11 +13,13 @@ const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
 const button = document.getElementById("btn-click");
 
-button.addEventListener("click", () => {
-  const menu = document.getElementById("menu");
-  menu.style.transition = "1s";
-  menu.classList.toggle("active");
-});
+function toggleMenu() {
+  button.addEventListener("click", () => {
+    const menu = document.getElementById("menu");
+    menu.style.transition = "1s";
+    menu.classList.toggle("active");
+  });
+}
 
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
