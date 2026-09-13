@@ -54,8 +54,7 @@ html {
 }
 
 #menu.active {
-  /* display: flex; */
-  /* flex-direction: column; */
-  display: block;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
