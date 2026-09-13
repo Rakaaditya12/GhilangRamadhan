@@ -20,6 +20,7 @@ function toggleMenu() {
 
     if (vissible === false) {
       menu.classList.toggle("active");
+      vissible = true;
     } else {
       console.error("error:toggle");
     }
