@@ -11,22 +11,7 @@ const navbarContact = document.getElementById("navbar-contact");
 const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
-const button = document.getElementById("btn-click");
-
-function toggleMenu() {
-  button.addEventListener("click", () => {
-    const menu = document.getElementById("menu");
-    let vissible = false;
-
-    if (vissible === false) {
-      menu.classList.toggle("active");
-      vissible = true;
-    } else {
-      console.error("error:toggle");
-    }
-  });
-}
-toggleMenu();
+// const button = document.getElementById("btn-click");
 
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
