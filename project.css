@@ -53,15 +53,15 @@ html {
   }
 }
 
-#child-content-hero {
-  animation: childContentHero 2.5s linear infinite;
+#content-hero {
+  animation: contentHero 2.5s linear infinite;
 }
 
-@keyframes childContentHero {
+@keyframes contentHero {
   from {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(-400px);
+    transform: translateX(-500px);
   }
 }
