@@ -60,7 +60,7 @@ html {
 
 @keyframes contentHero {
   from {
-    transform: translateX(100vw);
+    transform: translateX(80vw);
   }
   to {
     transform: translateX(-100%);
