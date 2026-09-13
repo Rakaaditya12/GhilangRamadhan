@@ -25,6 +25,7 @@ function toggleMenu() {
     }
   });
 }
+toggleMenu();
 
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
