@@ -54,7 +54,7 @@ html {
 }
 
 #child-content-hero {
-  animation: childContentHero 1.3s linear ease-in infinite;
+  animation: childContentHero 2.5s linear infinite;
 }
 
 @keyframes childContentHero {
@@ -62,6 +62,6 @@ html {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(-300px);
+    transform: translateX(-400px);
   }
 }
