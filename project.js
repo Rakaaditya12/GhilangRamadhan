@@ -20,7 +20,6 @@ function toggleMenu() {
 
     if (vissible === false) {
       menu.classList.toggle("active");
-      menu.style.width = "80%"
       vissible = true;
     } else {
       console.error("error:toggle");
