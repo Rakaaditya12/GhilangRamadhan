@@ -11,7 +11,6 @@ const navbarContact = document.getElementById("navbar-contact");
 const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
-// const button = document.getElementById("btn-click");
 
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
