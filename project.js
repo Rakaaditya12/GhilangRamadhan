@@ -143,13 +143,13 @@ function mouseOverSumbing() {
         "head-query-perjalanan",
       );
       navbarNav.style.transition = "0.8s";
-      navbarNav.style.filter = "blur(8px)";
-      headQueryPerjalanan.style.filter = "blur(8px)";
-      gambarGede.style.filter = "blur(8px)";
-      gambarMerbabu.style.filter = "blur(8px)";
-      gambarPangrango.style.filter = "blur(8px)";
-      gambarSindoro.style.filter = "blur(8px)";
-      gambarSlamet.style.filter = "blur(8px)";
+      navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.filter = "blur(5px)";
+      gambarGede.style.filter = "blur(5px)";
+      gambarMerbabu.style.filter = "blur(5px)";
+      gambarPangrango.style.filter = "blur(5px)";
+      gambarSindoro.style.filter = "blur(5px)";
+      gambarSlamet.style.filter = "blur(5px)";
     }
 
     gambarSumbing.addEventListener("mouseleave", (e) => {
