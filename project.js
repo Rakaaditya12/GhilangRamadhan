@@ -365,3 +365,9 @@ function mouseOverSumbing() {
     });
   });
 }
+
+if ((contentHero.style.transform = "translateX(-90%)")) {
+  contentHero.style.transition = "0.7s";
+  contentHero.style.color = "red";
+  return;
+}
