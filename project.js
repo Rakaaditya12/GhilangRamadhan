@@ -145,6 +145,7 @@ function mouseOverSlamet() {
       );
       navbarNav.style.transition = "0.8s";
       navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.transition = "0.8s";
       headQueryPerjalanan.style.filter = "blur(5px)";
       gambarGede.style.filter = "blur(5px)";
       gambarMerbabu.style.filter = "blur(5px)";
@@ -183,6 +184,7 @@ function mouseOverMerbabu() {
       );
       navbarNav.style.transition = "0.8s";
       navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.transition = "0.8s";
       headQueryPerjalanan.style.filter = "blur(5px)";
       gambarGede.style.filter = "blur(5px)";
       gambarSumbing.style.filter = "blur(5px)";
@@ -221,6 +223,7 @@ function mouseOverGede() {
       );
       navbarNav.style.transition = "0.8s";
       navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.transition = "0.8s";
       headQueryPerjalanan.style.filter = "blur(5px)";
       gambarSumbing.style.filter = "blur(5px)";
       gambarMerbabu.style.filter = "blur(5px)";
@@ -259,6 +262,7 @@ function mouseOverPangrango() {
       );
       navbarNav.style.transition = "0.8s";
       navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.transition = "0.8s";
       headQueryPerjalanan.style.filter = "blur(5px)";
       gambarGede.style.filter = "blur(5px)";
       gambarMerbabu.style.filter = "blur(5px)";
@@ -297,6 +301,7 @@ function mouseOverSindoro() {
       );
       navbarNav.style.transition = "0.8s";
       navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.transition = "0.8s";
       headQueryPerjalanan.style.filter = "blur(5px)";
       gambarGede.style.filter = "blur(5px)";
       gambarMerbabu.style.filter = "blur(5px)";
@@ -334,6 +339,7 @@ function mouseOverSumbing() {
       );
       navbarNav.style.transition = "0.8s";
       navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.transition = "0.8s";
       headQueryPerjalanan.style.filter = "blur(5px)";
       gambarGede.style.filter = "blur(5px)";
       gambarMerbabu.style.filter = "blur(5px)";
