@@ -78,7 +78,7 @@ navbarContact.addEventListener("click", (e) => {
 
   setTimeout(() => {
     contentFooter.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, 400);
+  }, 200);
 });
 
 navbarHome.addEventListener("click", (e) => {
@@ -89,7 +89,7 @@ navbarHome.addEventListener("click", (e) => {
       behavior: "smooth",
       block: "start",
     });
-  }, 400);
+  }, 200);
 });
 
 navbarAbout.addEventListener("click", (e) => {
@@ -100,7 +100,7 @@ navbarAbout.addEventListener("click", (e) => {
       behavior: "smooth",
       block: "start",
     });
-  }, 400);
+  }, 200);
 });
 
 navbarHobby.addEventListener("click", (e) => {
@@ -111,7 +111,7 @@ navbarHobby.addEventListener("click", (e) => {
       behavior: "smooth",
       block: "start",
     });
-  }, 400);
+  }, 200);
 });
 
 logoPuncakSaya.addEventListener("click", (e) => {
@@ -123,7 +123,7 @@ logoPuncakSaya.addEventListener("click", (e) => {
       block: "start",
       inline: "center",
     });
-  }, 500);
+  }, 200);
 });
 
 const refreshPerformance = performance.getEntriesByType("navigation")[0];
