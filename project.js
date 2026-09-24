@@ -133,6 +133,196 @@ if (refreshPerformance.type === "reload") {
   console.error("Error:failed");
 }
 
+// Gunung slamet
+function mouseOverSlamet() {
+  gambarSlamet.addEventListener("mouseover", (e) => {
+    e.preventDefault();
+
+    if (e.target) {
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.transition = "0.8s";
+      navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.filter = "blur(5px)";
+      gambarGede.style.filter = "blur(5px)";
+      gambarMerbabu.style.filter = "blur(5px)";
+      gambarPangrango.style.filter = "blur(5px)";
+      gambarSindoro.style.filter = "blur(5px)";
+      gambarSumbing.style.filter = "blur(5px)";
+    }
+
+    gambarSlamet.addEventListener("mouseleave", (e) => {
+      e.preventDefault();
+
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.filter = "";
+      headQueryPerjalanan.style.filter = "";
+      gambarGede.style.filter = "";
+      gambarMerbabu.style.filter = "";
+      gambarPangrango.style.filter = "";
+      gambarSindoro.style.filter = "";
+      gambarSumbing.style.filter = "";
+    });
+  });
+}
+
+// Gunung merbabu
+function mouseOverMerbabu() {
+  gambarMerbabu.addEventListener("mouseover", (e) => {
+    e.preventDefault();
+
+    if (e.target) {
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.transition = "0.8s";
+      navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.filter = "blur(5px)";
+      gambarGede.style.filter = "blur(5px)";
+      gambarSumbing.style.filter = "blur(5px)";
+      gambarPangrango.style.filter = "blur(5px)";
+      gambarSindoro.style.filter = "blur(5px)";
+      gambarSlamet.style.filter = "blur(5px)";
+    }
+
+    gambarMerbabu.addEventListener("mouseleave", (e) => {
+      e.preventDefault();
+
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.filter = "";
+      headQueryPerjalanan.style.filter = "";
+      gambarGede.style.filter = "";
+      gambarSumbing.style.filter = "";
+      gambarPangrango.style.filter = "";
+      gambarSindoro.style.filter = "";
+      gambarSlamet.style.filter = "";
+    });
+  });
+}
+
+// Gunung gede
+function mouseOverGede() {
+  gambarGede.addEventListener("mouseover", (e) => {
+    e.preventDefault();
+
+    if (e.target) {
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.transition = "0.8s";
+      navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.filter = "blur(5px)";
+      gambarSumbing.style.filter = "blur(5px)";
+      gambarMerbabu.style.filter = "blur(5px)";
+      gambarPangrango.style.filter = "blur(5px)";
+      gambarSindoro.style.filter = "blur(5px)";
+      gambarSlamet.style.filter = "blur(5px)";
+    }
+
+    gambarGede.addEventListener("mouseleave", (e) => {
+      e.preventDefault();
+
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.filter = "";
+      headQueryPerjalanan.style.filter = "";
+      gambarSumbing.style.filter = "";
+      gambarMerbabu.style.filter = "";
+      gambarPangrango.style.filter = "";
+      gambarSindoro.style.filter = "";
+      gambarSlamet.style.filter = "";
+    });
+  });
+}
+
+// Gunung pangrango
+function mouseOverPangrango() {
+  gambarPangrango.addEventListener("mouseover", (e) => {
+    e.preventDefault();
+
+    if (e.target) {
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.transition = "0.8s";
+      navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.filter = "blur(5px)";
+      gambarGede.style.filter = "blur(5px)";
+      gambarMerbabu.style.filter = "blur(5px)";
+      gambarSumbing.style.filter = "blur(5px)";
+      gambarSindoro.style.filter = "blur(5px)";
+      gambarSlamet.style.filter = "blur(5px)";
+    }
+
+    gambarPangrango.addEventListener("mouseleave", (e) => {
+      e.preventDefault();
+
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.filter = "";
+      headQueryPerjalanan.style.filter = "";
+      gambarGede.style.filter = "";
+      gambarMerbabu.style.filter = "";
+      gambarSumbing.style.filter = "";
+      gambarSindoro.style.filter = "";
+      gambarSlamet.style.filter = "";
+    });
+  });
+}
+
+// Gunung sindoro
+function mouseOverSindoro() {
+  gambarSindoro.addEventListener("mouseover", (e) => {
+    e.preventDefault();
+
+    if (e.target) {
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.transition = "0.8s";
+      navbarNav.style.filter = "blur(5px)";
+      headQueryPerjalanan.style.filter = "blur(5px)";
+      gambarGede.style.filter = "blur(5px)";
+      gambarMerbabu.style.filter = "blur(5px)";
+      gambarPangrango.style.filter = "blur(5px)";
+      gambarSumbing.style.filter = "blur(5px)";
+      gambarSlamet.style.filter = "blur(5px)";
+    }
+
+    gambarSindoro.addEventListener("mouseleave", (e) => {
+      e.preventDefault();
+
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.filter = "";
+      headQueryPerjalanan.style.filter = "";
+      gambarGede.style.filter = "";
+      gambarMerbabu.style.filter = "";
+      gambarPangrango.style.filter = "";
+      gambarSumbing.style.filter = "";
+      gambarSlamet.style.filter = "";
+    });
+  });
+}
+
 function mouseOverSumbing() {
   gambarSumbing.addEventListener("mouseover", (e) => {
     e.preventDefault();
