@@ -33,6 +33,7 @@
   <body class="font-[Poppins] bg-green-950" id="content-pendaki">
     <header
       class="top-0 sticky z-[9999] py-5 border-b-1 border-b-black/50 bg-white"
+      id="navbar-nav"
     >
       <section
         class="flex flex-row w-full justify-between items-center lg:flex-row md:flex-row max-md:flex-col md:items-center animate__animated animate__backInLeft"
@@ -194,7 +195,7 @@
 
     <div class="top-0 max-w-full p-1 mt-15 bg-green-900/10" id="content-img">
       <div class="flex items-center py-10 px-23">
-        <div class="p-2 flex flex-col gap-2.5">
+        <div class="p-2 flex flex-col gap-2.5" id="head-query-perjalanan">
           <p
             class="text-green-400 tracking-[5px] max-sm:text-[14px]"
             id="query-perjalanan"
@@ -217,6 +218,7 @@
         >
           <div
             class="bg-[url(/pictures/jateng-slamet.jpeg)] w-70 h-81 rounded-2xl bg-cover bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 before:content-[''] before:absolute before:z-0 before:w-70 before:h-0 before:bg-green-400 before:opacity-20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] hover:before:h-81 relative"
+            id="gambar-slamet"
           >
             <p class="text-green-500 mt-50 ml-7 relative z-10">
               JAWA TENGAH - 2026 <br /><span
@@ -232,6 +234,7 @@
         >
           <div
             class="bg-[url(/pictures/foto-3.jpeg)] w-70 h-81 bg-cover rounded-2xl bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 before:content-[''] before:absolute before:w-70 before:h-0 before:bg-green-400 before:opacity-20 before:rounded-xl before:transition-all before:duration-[0.7s] hover:before:h-81 relative"
+            id="gambar-merbabu"
           >
             <p class="text-green-500 mt-50 ml-7 relative z-10">
               JAWA TENGAH - 2025 <br /><span
@@ -246,6 +249,7 @@
         >
           <div
             class="bg-[url(/pictures/foto-8.jpeg)] w-70 h-81 bg-cover rounded-2xl bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 before:content-[''] before:absolute before:w-70 before:h-0 before:bg-green-400 before:opacity-20 before:rounded-xl before:transition-all before:duration-[0.7s] hover:before:h-81 relative"
+            id="gambar-gede"
           >
             <p class="text-green-500 mt-50 ml-7 relative z-10">
               Jawa BARAT - 2024 <br /><span
@@ -260,6 +264,7 @@
         >
           <div
             class="bg-[url(/pictures/foto-9.jpeg)] w-70 h-81 rounded-xl bg-cover bg-no-repeat bg-center cursor-pointer hover:scale-110 transition duration-500 before:content-[''] before:absolute before:w-70 before:h-0 before:bg-green-400 before:opacity-20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] hover:before:h-81 relative"
+            id="gambar-pangrango"
           >
             <p class="text-green-500 mt-50 ml-7 relative z-10">
               JAWA BARAT - 2024 <br /><span
@@ -274,6 +279,7 @@
         >
           <div
             class="bg-[url(/pictures/foto-2.jpeg)] w-70 h-81 rounded-xl bg-cover bg-no-repeat bg-center overflow-hidden cursor-pointer hover:scale-110 transition duration-500 before:content-[''] before:absolute before:w-70 before:h-0 before:bg-green-400 before:opacity-20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] hover:before:h-81 relative"
+            id="gambar-sindoro"
           >
             <p class="text-green-500 mt-50 ml-7 relative z-10">
               JAWA TENGAH - 2025 <br /><span
@@ -288,6 +294,8 @@
         >
           <div
             class="bg-[url(/pictures/foto-7.jpeg)] w-70 h-81 rounded-xl bg-cover bg-no-repeat bg-center overflow-hidden cursor-pointer hover:scale-110 transition-transform transition duration-500 hover:bg-green-500 before:content-[''] before:absolute before:w-70 before:h-0 before:bg-green-400 before:opacity-20 before:overflow-hidden before:rounded-xl before:transition-all before:duration-[0.7s] hover:before:h-81 relative"
+            id="gambar-sumbing"
+            onmouseover="mouseOverSumbing()"
           >
             <p class="text-green-500 mt-50 ml-7 relative z-10">
               JAWA TENGAH - 2026 <br /><span

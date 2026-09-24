@@ -11,6 +11,12 @@ const navbarContact = document.getElementById("navbar-contact");
 const aktivitas = document.getElementById("content-aktivitas");
 const logoPuncakSaya = document.getElementById("logo-puncaksaya");
 const queryPerjalanan = document.getElementById("query-perjalanan");
+const gambarSlamet = document.getElementById("gambar-slamet");
+const gambarMerbabu = document.getElementById("gambar-merbabu");
+const gambarGede = document.getElementById("gambar-gede");
+const gambarPangrango = document.getElementById("gambar-pangrango");
+const gambarSindoro = document.getElementById("gambar-sindoro");
+const gambarSumbing = document.getElementById("gambar-sumbing");
 
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
@@ -125,4 +131,41 @@ if (refreshPerformance.type === "reload") {
   window.location.href = "index.html";
 } else {
   console.error("Error:failed");
+}
+
+function mouseOverSumbing() {
+  gambarSumbing.addEventListener("mouseover", (e) => {
+    e.preventDefault();
+
+    if (e.target) {
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.transition = "0.8s";
+      navbarNav.style.filter = "blur(8px)";
+      headQueryPerjalanan.style.filter = "blur(8px)";
+      gambarGede.style.filter = "blur(8px)";
+      gambarMerbabu.style.filter = "blur(8px)";
+      gambarPangrango.style.filter = "blur(8px)";
+      gambarSindoro.style.filter = "blur(8px)";
+      gambarSlamet.style.filter = "blur(8px)";
+    }
+
+    gambarSumbing.addEventListener("mouseleave", (e) => {
+      e.preventDefault();
+
+      const navbarNav = document.getElementById("navbar-nav");
+      const headQueryPerjalanan = document.getElementById(
+        "head-query-perjalanan",
+      );
+      navbarNav.style.filter = "";
+      headQueryPerjalanan.style.filter = "";
+      gambarGede.style.filter = "";
+      gambarMerbabu.style.filter = "";
+      gambarPangrango.style.filter = "";
+      gambarSindoro.style.filter = "";
+      gambarSlamet.style.filter = "";
+    });
+  });
 }
