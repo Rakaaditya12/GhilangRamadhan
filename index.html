@@ -32,7 +32,7 @@
   </head>
   <body class="font-[Poppins] bg-green-950" id="content-pendaki">
     <header
-      class="top-0 sticky z-[9999] py-5 border-b-1 border-b-black/50 bg-white"
+      class="top-0 sticky z-[9999] backdrop-blur-[7px] py-5 border-b-1 border-b-black/50 bg-white"
       id="navbar-nav"
     >
       <section
@@ -136,7 +136,7 @@
     </div>
 
     <div
-      class="top-0 p-1 border-b-1 border-b-green-900 w-full mask-l-from-80% mask-l-to-95% mask-r-from-80% mask-r-to-95% overflow-hidden"
+      class="top-0 p-1 relative z-0 border-b-1 border-b-green-900 w-full mask-l-from-80% mask-l-to-95% mask-r-from-80% mask-r-to-95% overflow-hidden"
     >
       <div
         class="flex flex-row justify-around items-center py-8 px-2 font-[Poppins] max-sm:flex-wrap"
@@ -193,7 +193,7 @@
       </div>
     </div>
 
-    <div class="top-0 max-w-full p-1 mt-15 bg-green-900/10" id="content-img">
+    <div class="top-0 relative z-0 max-w-full p-1 mt-15 bg-green-900/10" id="content-img">
       <div class="flex items-center py-10 px-23 max-md:px-0 max-md:ml-10">
         <div class="p-2 flex flex-col gap-2.5" id="head-query-perjalanan">
           <p
@@ -314,7 +314,7 @@
     </div>
 
     <div
-      class="top-0 px-1 py-2 border-none shadow-2xl shadow-green-900 max-md:bg-[url(/pictures/hutan-1-background.jpg)] md:bg-[url(/pictures/hutan-1-background.jpg)] sm:mt-25 md:mt-25 lg:flex-row md:flex-col lg:bg-none lg:mt-2 md:mt-25 max-md:mt-25"
+      class="top-0 relative z-0 px-1 py-2 border-none shadow-2xl shadow-green-900 max-md:bg-[url(/pictures/hutan-1-background.jpg)] md:bg-[url(/pictures/hutan-1-background.jpg)] sm:mt-25 md:mt-25 lg:flex-row md:flex-col lg:bg-none lg:mt-2 md:mt-25 max-md:mt-25"
       id="content-about"
     >
       <section class="top-0 max-full px-3 py-4 max-md:px-0 mx-auto">
@@ -396,8 +396,8 @@
       </section>
     </div>
 
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="text-center relative flex flex-col gap-4 mt-20">
+    <div class="max-w-5xl mx-auto px-6 relative z-0">
+      <div class="text-center flex flex-col gap-4 mt-20">
         <p class="text-green-500 tracking-[2px]">PERJALANAN</p>
         <h1 class="text-4xl text-white font-bold tracking-[1px]">
           TIMELINE PENDAKIAN
@@ -484,7 +484,7 @@
       </div>
     </div>
 
-    <div class="p-5 max-w-full" id="content-aktivitas">
+    <div class="p-5 max-w-full relative z-0" id="content-aktivitas">
       <div
         class="flex items-center top-0 py-6 px-6 md:justify-center max-md:justify-center lg:justify-start lg:items-center"
       >
@@ -556,7 +556,7 @@
     </div>
 
     <div
-      class="flex flex-col justify-center items-center h-[80vh] bg-[url(/pictures/footer-bg-6.jpg)] bg-cover bg-no-repeat bg-center w-full mask-t-from-60% mask-t-to-100% gap-4 mask-b-from-80% mask-b-to-95% shadow-2xl shadow-white border-2 border-white"
+      class="flex flex-col relative z-0 justify-center items-center h-[80vh] bg-[url(/pictures/footer-bg-6.jpg)] bg-cover bg-no-repeat bg-center w-full mask-t-from-60% mask-t-to-100% gap-4 mask-b-from-80% mask-b-to-95% shadow-2xl shadow-white border-2 border-white"
     >
       <div class="flex flex-col gap-3">
         <p class="text-green-500 text-center text-xl tracking-[2px]">HUBUNGI</p>
@@ -590,7 +590,7 @@
       </div>
     </div>
 
-    <footer class="mx-auto max-w-full bg-emerald-950" id="content-footer">
+    <footer class="mx-auto max-w-full bg-emerald-950 relative z-0" id="content-footer">
       <div class="w-max-content">
         <div
           class="flex flex-row justify-around items-center py-6 px-3 h-[20vh] max-md:flex-col max-md:gap-3 max-md:h-full"
