@@ -68,11 +68,11 @@ html {
 }
 
 #gambar-footer {
-  animation: gambarFooter 20s linear infinite;
+  animation: gambarFooter 25s linear infinite;
 }
 
 #query-header {
-  animation: queryHeader 13s linear infinite;
+  animation: queryHeader 15s linear infinite;
 }
 
 @keyframes queryHeader {
