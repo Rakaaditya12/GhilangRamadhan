@@ -370,11 +370,11 @@ function mouseOverSumbing() {
   });
 }
 
-function menuToggle() {
+function menuClick() {
   menuToggle.addEventListener("click", (e) => {
     e.preventDefault();
 
     menu.classList.toggle("active");
   });
 }
-menuToggle();
+menuClick();
