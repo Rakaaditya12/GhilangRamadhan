@@ -53,6 +53,11 @@ html {
   }
 }
 
+#menu.active {
+  display: flex;
+  align-items: center;
+}
+
 #content-hero {
   animation: contentHero 15s linear infinite;
   transition: 1s;

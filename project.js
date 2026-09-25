@@ -374,7 +374,6 @@ function menuClick() {
   menuToggle.addEventListener("click", (e) => {
     e.preventDefault();
     
-    menu.classList.add("active");
     menu.classList.toggle("active");
   });
 }
