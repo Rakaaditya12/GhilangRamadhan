@@ -74,7 +74,7 @@ html {
 #query-header {
   animation: queryHeader 10s linear infinite;
 }
-
+/* 
 @keyframes queryHeader {
   from {
     background-image: url(/pictures/hutan-2-background.jpg);
@@ -83,7 +83,7 @@ html {
   to {
     background-image: url(/pictures/hutan-4-background.jpg);
   }
-}
+} */
 
 @keyframes gambarFooter {
   0% {
