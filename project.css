@@ -71,6 +71,24 @@ html {
   animation: gambarFooter 15s linear infinite;
 }
 
+#query-header {
+  animation: queryHeader 15s ease-in infinite;
+}
+
+@keyframes queryHeader {
+  0% {
+    background-image: url(/pictures/hutan-1-background.jpg);
+  }
+
+  50% {
+    background-image: url(/pictures/hutan-4-background.jpg);
+  }
+
+  100% {
+    background-image: url(/pictures/hutan-5-background.jpg);
+  }
+}
+
 @keyframes gambarFooter {
   0% {
     background-image: url(/pictures/footer-bg-2.jpg);
