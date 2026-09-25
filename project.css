@@ -77,7 +77,7 @@ html {
 
 @keyframes queryHeader {
   0% {
-    background-image: url(/pictures/hutan-1-background.jpg);
+    background-image: url(/pictures/hutan-2-background.jpg);
   }
 
   50% {
@@ -89,7 +89,7 @@ html {
   }
 
   100% {
-    background-image: url(/pictures/hutan-2-background.jpg);
+    background-image: url(/pictures/hutan-1-background.jpg);
   }
 }
 
