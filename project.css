@@ -87,7 +87,7 @@ html {
 
 @keyframes gambarFooter {
   0% {
-    background-image: url(/pictures/footer-bg-2.jpg);
+    background-image: url(/pictures/footer-bg-6.jpg);
   }
 
   25% {
@@ -95,7 +95,7 @@ html {
   }
 
   50% {
-    background-image: url(/pictures/footer-bg-3.jpg);
+    background-image: url(/pictures/footer-bg-2.jpg);
   }
 
   75% {
