@@ -367,3 +367,21 @@ function mouseOverSumbing() {
     });
   });
 }
+
+const gambarQueryHeader = document.getElementById("query-header");
+let index = 0;
+
+setInterval(() => {
+  gambarQueryHeader.classList.add("fade-out");
+
+  setTimeout(() => {
+    index++;
+
+    if (index >= gambarQueryHeader.length) {
+      index = 0;
+    }
+
+    gambarQueryHeader.src = gambarQueryHeader[index];
+    gambarQueryHeader.classList.remove("fade-out");
+  })
+}, 3000);
