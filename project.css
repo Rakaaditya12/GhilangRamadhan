@@ -66,3 +66,19 @@ html {
     transform: translateX(-100%);
   }
 }
+
+#content-img {
+  animation: contentImg 1s forwards ease;
+}
+
+@keyframes contentImg {
+  from {
+    transform: translateX(-300px);
+    opacity: 0px;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
