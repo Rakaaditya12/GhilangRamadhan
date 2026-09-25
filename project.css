@@ -68,7 +68,7 @@ html {
 }
 
 #gambar-footer {
-  animation: gambarFooter 5s linear infinite;
+  animation: gambarFooter 15s linear infinite;
 }
 
 @keyframes gambarFooter {
