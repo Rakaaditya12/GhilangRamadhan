@@ -84,8 +84,12 @@ html {
     background-image: url(/pictures/hutan-4-background.jpg);
   }
 
-  100% {
+  75% {
     background-image: url(/pictures/hutan-5-background.jpg);
+  }
+
+  100% {
+    background-image: url(/pictures/hutan-2-background.jpg);
   }
 }
 
