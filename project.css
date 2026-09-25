@@ -76,10 +76,6 @@ html {
 }
 
 @keyframes queryHeader {
-  from {
-    background-image: url(/pictures/hutan-2-background.jpg);
-  }
-
   to {
     background-image: url(/pictures/hutan-4-background.jpg);
   }
