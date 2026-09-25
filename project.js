@@ -43,6 +43,7 @@ window.addEventListener("scroll", (e) => {
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
 
+  // content hero
   if (window.scrollY < 100) {
     contentHero.style.opacity = "0.4";
     contentHero.style.transition = "1s";
@@ -50,13 +51,14 @@ window.addEventListener("scroll", (e) => {
     contentHero.style.opacity = "";
   }
 
+  // content img
   if (window.scrollY < 400) {
     contentImg.style.transform = "translateX(-300px)";
     contentImg.style.transition = "1.3s";
     contentImg.style.opacity = "0";
   } else if (window.scrollY > 400) {
-    contentImg.style.transform = "";
-    contentImg.style.opacity = "";
+    contentImg.style.transform = "0px";
+    contentImg.style.opacity = "1";
   }
 });
 
