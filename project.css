@@ -72,7 +72,7 @@ html {
 }
 
 #query-header {
-  animation: queryHeader 10s linear infinite;
+  animation: queryHeader 13s linear infinite;
 }
 
 @keyframes queryHeader {
