@@ -67,18 +67,28 @@ html {
   }
 }
 
-/* #content-img {
-  animation: contentImg 1s forwards ease;
+#gambar-footer {
+  animation: gambarFooter 5s linear infinite;
 }
 
-@keyframes contentImg {
-  from {
-    transform: translateX(-300px);
-    opacity: 0px;
+@keyframes gambarFooter {
+  0% {
+    background-image: url(/pictures/footer-bg-2.jpg);
   }
 
-  to {
-    transform: translateX(0px);
-    opacity: 1;
+  25% {
+    background-image: url(/pictures/footer-bg-2.jpg);
   }
-} */
+
+  50% {
+    background-image: url(/pictures/footer-bg-3.jpg);
+  }
+
+  75% {
+    background-image: url(/pictures/footer-bg-4.jpg);
+  }
+
+  100% {
+    background-image: url(/pictures/footer-bg-5.jpg);
+  }
+}
