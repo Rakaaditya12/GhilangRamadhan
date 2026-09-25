@@ -377,4 +377,3 @@ function menuClick() {
     menu.classList.toggle("active");
   });
 }
-menuClick();
