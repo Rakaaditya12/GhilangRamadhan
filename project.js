@@ -57,7 +57,7 @@ window.addEventListener("scroll", (e) => {
     contentImg.style.transition = "1.3s";
     contentImg.style.opacity = "0";
   } else if (window.scrollY > 400) {
-    contentImg.style.transform = "0px";
+    contentImg.style.transform = "300px";
     contentImg.style.opacity = "1";
   }
 });
