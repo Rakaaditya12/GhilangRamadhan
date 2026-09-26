@@ -59,8 +59,8 @@ html {
   align-items: center;
   transition: 1s;
   position: absolute;
-  background: rgb(161, 161, 161);
-  background-color: darkgray;
+  /* background-color: darkgray; */
+  background-color: rgb(100, 140, 156);
   z-index: 500;
   backdrop-filter: blur(10px);
   padding-top: 25px;
