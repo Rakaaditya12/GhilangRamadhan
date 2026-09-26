@@ -376,7 +376,7 @@ function menuClick() {
 
     menu.classList.toggle("active");
     const active = document.querySelector(".active");
-    return active;
+    active.style.transition = "0.7s";
   });
 }
 menuClick();
