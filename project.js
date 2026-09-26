@@ -378,8 +378,9 @@ function menuClick() {
     const active = document.querySelector(".active");
     active.addEventListener("click", (e) => {
       e.preventDefault();
-      active.classList.remove("active");
+      active.style.height = "0px";
       active.style.transition = "0.7s";
+      active.classList.remove("active");
     });
   });
 }
