@@ -55,9 +55,31 @@ html {
 
 #menu.active {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  transition: 0.7s;
-  background: rgb(49, 204, 49);
+  transition: 1s;
+  position: absolute;
+  background: rgb(161, 161, 161);
+  background-color: darkgray;
+  z-index: 500;
+  backdrop-filter: blur(10px);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  top: 64px;
+  animation: menuActive 0.7s forwards ease;
+}
+
+@keyframes menuActive {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+
+  to {
+    opacity: 1;
+    height: 205px;
+  }
 }
 
 #content-hero {

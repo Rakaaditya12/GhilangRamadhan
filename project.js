@@ -374,9 +374,9 @@ function menuClick() {
   menuToggle.addEventListener("click", (e) => {
     e.preventDefault();
 
-    menuToggle.style.transition = "0.7s";
-
     menu.classList.toggle("active");
+    const active = document.querySelector(".active");
+    return active;
   });
 }
 menuClick();
