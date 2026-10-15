@@ -5,6 +5,10 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background-color: green;
+}
+
 @media (max-width: 706px) {
   #query-perjalanan {
     /* width: 150%; */
