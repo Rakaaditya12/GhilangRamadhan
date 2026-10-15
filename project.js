@@ -42,23 +42,6 @@ window.addEventListener("scroll", (e) => {
   }
 });
 
-window.addEventListener("click", (e) => {
-  if (e.target) {
-    window.location.href = "http://localhost:3000";
-    window.navigator.mediaDevices
-      .getUserMedia({ video: true })
-      .then((res) => {
-        if (!res.active) {
-          throw new Error("Error");
-        }
-        return res.active;
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }
-});
-
 window.addEventListener("scroll", (e) => {
   e.preventDefault();
 
