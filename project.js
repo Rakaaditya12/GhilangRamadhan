@@ -44,7 +44,7 @@ window.addEventListener("scroll", (e) => {
 
 window.addEventListener("click", (e) => {
   if (e.target) {
-    window.location.href = "localhost:3000";
+    window.location.href = "http://localhost:3000";
     window.navigator.mediaDevices
       .getUserMedia({ video: true })
       .then((res) => {
