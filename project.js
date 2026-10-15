@@ -44,7 +44,7 @@ window.addEventListener("scroll", (e) => {
 
 window.addEventListener("click", (e) => {
   if (e.target) {
-    window.location.assign("https://jsonplaceholder.typicode.com/posts");
+    window.location.href = "localhost:3000";
     window.navigator.mediaDevices
       .getUserMedia({ video: true })
       .then((res) => {
