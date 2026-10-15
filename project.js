@@ -44,7 +44,7 @@ window.addEventListener("scroll", (e) => {
 
 window.addEventListener("click", (e) => {
   if (e.target) {
-    window.location.port = 3000;
+    window.location.assign("https://jsonplaceholder.typicode.com/posts");
     window.navigator.mediaDevices
       .getUserMedia({ video: true })
       .then((res) => {
