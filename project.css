@@ -65,6 +65,7 @@ html {
   position: absolute;
   background-color: rgb(100, 140, 156);
   z-index: 500;
+  border: none;
   backdrop-filter: blur(10px);
   padding-top: 25px;
   padding-bottom: 25px;
