@@ -35,7 +35,7 @@ window.addEventListener("scroll", (e) => {
   e.preventDefault();
 
   if (window.scrollY < 1500) {
-    contentAbout.style.transition = "1s";
+    contentAbout.style.transition = "1.3s";
     contentAbout.style.opacity = "0";
   } else if (window.scrollY > 1500) {
     contentAbout.style.opacity = "1";
