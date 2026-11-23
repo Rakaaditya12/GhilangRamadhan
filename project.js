@@ -17,7 +17,6 @@ const gambarGede = document.getElementById("gambar-gede");
 const gambarPangrango = document.getElementById("gambar-pangrango");
 const gambarSindoro = document.getElementById("gambar-sindoro");
 const gambarSumbing = document.getElementById("gambar-sumbing");
-const menu = document.getElementById("menu");
 const menuToggle = document.getElementById("menu-toggle");
 
 window.addEventListener("scroll", (e) => {
@@ -371,16 +370,18 @@ function mouseOverSumbing() {
 }
 
 function menuClick() {
-  menuToggle.addEventListener("click", (e) => {
-    e.preventDefault();
+  menuToggle.addEventListener("click", () => {
+    const menu = document.getElementById("menu");
 
-    menu.classList.toggle("active");
-    const active = document.querySelector(".active");
-    active.addEventListener("click", (e) => {
-      e.preventDefault();
-      // active.style.height = "0px";
-      active.style.transition = "0.7s";
-      active.classList.remove("active");
+    if (menu) {
+      menu.classList.toggle("active");
+    }
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 780) {
+        menu.classList.remove("active");
+        return;
+      }
     });
   });
 }
