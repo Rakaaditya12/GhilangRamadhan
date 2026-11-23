@@ -378,7 +378,7 @@ function menuClick() {
     const active = document.querySelector(".active");
     active.addEventListener("click", (e) => {
       e.preventDefault();
-      active.style.height = "0px";
+      // active.style.height = "0px";
       active.style.transition = "0.7s";
       active.classList.remove("active");
     });
