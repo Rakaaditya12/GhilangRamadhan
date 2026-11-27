@@ -83,13 +83,8 @@ html {
     opacity: 0;
   }
   to {
-    height: 30vh;
+    height: 50vh;
     opacity: 1;
-  }
-}
-@media (width <= 765px) {
-  #menu.active {
-    height: 100vh;
   }
 }
 
