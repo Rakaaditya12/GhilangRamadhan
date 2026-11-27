@@ -377,6 +377,12 @@ function menuClick() {
       menu.classList.toggle("active");
     }
 
+    menu.addEventListener("click", (e) => {
+      if (e.target) {
+        menu.classList.remove("active");
+      }
+    });
+
     window.addEventListener("resize", () => {
       if (window.innerWidth >= 780) {
         menu.classList.remove("active");
