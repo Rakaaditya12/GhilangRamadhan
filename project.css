@@ -87,6 +87,11 @@ html {
     opacity: 1;
   }
 }
+@media (width <= 450px) {
+  #menu.active {
+    height: 50vh;
+  }
+}
 
 #content-hero {
   animation: contentHero 15s linear infinite;
