@@ -74,17 +74,15 @@ html {
   width: 100%;
   top: 0;
   border: none;
-  /* background-image: url("pictures/x-solid-full.svg");
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: local;
-  background-position-x: 32em;
-  background-position-y: 10px; */
   left: 0;
   right: 0;
   border-radius: 0;
   animation: menuActive 0.6s forwards ease;
+  @media (width <= 660px) {
+    #menu.active {
+      padding-top: 20em;
+    }
+  }
 }
 @keyframes menuActive {
   from {
