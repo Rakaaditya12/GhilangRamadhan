@@ -83,7 +83,7 @@ html {
     opacity: 0;
   }
   to {
-    height: 20vh;
+    height: 40vh;
     opacity: 1;
   }
 }
