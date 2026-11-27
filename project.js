@@ -373,19 +373,21 @@ function menuClick() {
   menuToggle.addEventListener("click", () => {
     const menu = document.getElementById("menu");
 
-    if (menu) {
-      menu.classList.toggle("active");
-    }
+    document.body.style.overflow = "hidden";
+
+    menu.classList.toggle("active");
 
     menu.addEventListener("click", (e) => {
       if (e.target) {
         menu.classList.remove("active");
+        document.body.style.overflow = "";
       }
     });
 
     window.addEventListener("resize", () => {
       if (window.innerWidth >= 780) {
         menu.classList.remove("active");
+        document.body.style.overflow = "";
         return;
       }
     });
