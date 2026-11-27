@@ -87,7 +87,7 @@ html {
     opacity: 1;
   }
 }
-@media (width <= 765) {
+@media (width <= 765px) {
   #menu.active {
     height: 100%;
   }
